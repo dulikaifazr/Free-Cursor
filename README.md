@@ -1,3 +1,4 @@
+# Free-Cursor
 追随马斯克的步伐，为免费而战。Free-Cursor 是一款能够让你的 Cursor 编辑器无限使用的工具。
 
 ## 📝 功能介绍
