@@ -1,4 +1,4 @@
-# Free-Cursor
+![qrcode_1750656810876](https://github.com/user-attachments/assets/f4555681-b771-4b6e-b212-5b0e405fb8b6)# Free-Cursor
 
 追随马斯克的步伐，为免费而战。Free-Cursor 是一款能够让你的 Cursor 编辑器无限使用的工具。
 
@@ -63,3 +63,7 @@ Free-Cursor 提供以下核心功能：
 5. **更新与终止**：作者保留随时更新、修改或终止本工具的权利，且无需事先通知。
 
 **使用本工具即表示您已阅读、理解并同意上述免责声明的所有条款。如不同意，请立即停止使用本工具。**
+## QQ 交流群
+扫描下方二维码加入我们的 QQ 交流群，获取最新更新和技术支持：
+![qrcode_1750656810876](https://github.com/user-attachments/assets/85e0640e-e11d-441a-b3e9-d62d66d27808)
+
