@@ -64,5 +64,6 @@ Free-Cursor 提供以下核心功能：
 **使用本工具即表示您已阅读、理解并同意上述免责声明的所有条款。如不同意，请立即停止使用本工具。**
 ## QQ 交流群
 扫描下方二维码加入我们的 QQ 交流群，获取最新更新和技术支持：
-![qrcode_1750656810876](https://github.com/user-attachments/assets/85e0640e-e11d-441a-b3e9-d62d66d27808)
+![qrcode_1750820039189](https://github.com/user-attachments/assets/c79df94e-7e3c-49ac-9943-1992ff0156ec)
+
 
