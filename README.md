@@ -1,5 +1,5 @@
 # Free-Cursor
-追随马斯克的步伐，为免费而战。Free-Cursor 是一款能够让你的 Cursor 编辑器保持pro试用不掉的工具。
+追随马斯克的步伐，为免费而战。Free-Cursor 是一款能够让你的 Cursor 编辑器保持pro试用不掉的工具。保证没有任何其他不良行为，用户完全免费使用软件。
 
 ## 编辑器1.1.7使用claude3.7模型最新截图：
 ![屏幕截图 2025-07-06 131823](https://github.com/user-attachments/assets/85d04754-eb49-4186-af7d-0025d93b911e)
