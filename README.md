@@ -9,8 +9,26 @@ Free-Cursor 提供以下核心功能：
 - **获得强力知识**：详细的使用指南，帮助你最大化工具效果
 
 ### 使用提示
-
 - 打开软件后可能需要等一会
+
+# 进入项目目录
+cd free-cursor
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 运行应用
+python app.py
+```
+
+## 📦 项目结构
+
+```
+free-cursor/
+├── app.py           # 主应用程序
+├── app_ui.py        # 用户界面实现
+├── app_resources.py # 应用资源文件
+```
 
 ## 软件使用相关问题解答
 
