@@ -17,8 +17,9 @@ except ImportError:
     ICON_B64 = ""
 
 class FreeCursorApp:
-    VERSION = "1.0.8"
-    
+    VERSION = "版本信息"
+    VERSION_URL = "你的gist地址"
+    GITHUB_REPO_URL = "有了新版本后希望跳转的地址"
     def __init__(self, root, usage_limiter):
         self.root = root
         self.root.title("Free-Cursor")
