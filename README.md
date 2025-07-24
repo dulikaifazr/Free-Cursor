@@ -23,12 +23,10 @@ python app.py
 
 ## 📦 项目结构
 
-```
 free-cursor/
 ├── app.py           # 主应用程序
 ├── app_ui.py        # 用户界面实现
 ├── app_resources.py # 应用资源文件
-```
 
 ## 软件使用相关问题解答
 
