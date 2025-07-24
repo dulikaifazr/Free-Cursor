@@ -9,6 +9,12 @@ import hashlib
 import ntplib
 from app_ui import FreeCursorApp
 
+class UsageLimiter:
+    MAX_DAILY_RESETS = (#阿拉伯数字，自己随便定义)
+    TIME_DIFF_THRESHOLD = (#阿拉伯数字，自己随便定义)
+    NTP_SERVERS = [
+       #自己去寻找ntp的网址，如果觉得自己使用完全不需要，就删除这段代码
+    ]
     def __init__(self):
         self.config_paths = self._get_config_paths()
         self.usage_data = self._load_usage_data()
