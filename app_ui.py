@@ -14,12 +14,12 @@ from PIL import Image, ImageTk
 try:
     from app_resources import ICON_B64
 except ImportError:
-    ICON_B64 = ""
+    ICON_B64 = ""#(app.resources.py的图标自己可以随意找，如果不需要图标测可以删除这个文件中关于icon_b64图标的全部引用)
 
 class FreeCursorApp:
     VERSION = "版本信息"
     VERSION_URL = "你的gist地址"
-    GITHUB_REPO_URL = "有了新版本后希望跳转的地址"
+    GITHUB_REPO_URL = "有了新版本、出现网络连接错误后希望跳转的地址，如果不需要可以删除这段版本可控制代码"
     def __init__(self, root, usage_limiter):
         self.root = root
         self.root.title("Free-Cursor")
