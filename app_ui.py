@@ -115,7 +115,7 @@ class FreeCursorApp:
                 return False
         return False
     
-    def is_version_lower_than(self, current_version, min_allowed_version):Def is_version_lower_than(self, current_version, min_allowed_version)：
+    def is_version_lower_than(self, current_version, min_allowed_version):
         current = [int(x) for x in current_version.split(".")]
         min_allowed = [int(x) for x in min_allowed_version.split(".")]
         
@@ -191,7 +191,7 @@ class FreeCursorApp:
         self.btn_mail = tk.Button(
             button_frame, 
             text="自己注册稳定邮箱", 
-            bg="#4A69BD",   bg =“# 4A69BD”,
+            bg="#4A69BD",  
             fg="white", 
             font=("Microsoft YaHei UI", 11),
             width=22,
@@ -213,7 +213,7 @@ class FreeCursorApp:
             description_frame, 
             text=description, 
             font=("Microsoft YaHei UI", 10),
-            bg="white",    bg =“white”,
+            bg="white",   
             fg="#555555",
             bd=0
         )
@@ -236,7 +236,7 @@ class FreeCursorApp:
             footer_frame, 
             text=f"版本: {self.VERSION}", 
             font=("Microsoft YaHei UI", 9),
-            bg="white",    bg =“white”,
+            bg="white",   
             fg="#888888",
             bd=0
         )
@@ -246,7 +246,7 @@ class FreeCursorApp:
             footer_frame, 
             text="© 2025", 
             font=("Microsoft YaHei UI", 9),
-            bg="white",    bg =“white”,
+            bg="white",   
             fg="#888888",
             bd=0
         )
