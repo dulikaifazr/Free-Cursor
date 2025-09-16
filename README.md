@@ -1,10 +1,10 @@
-# 🔄 free-cursor环境重置工具
+# 🔄 free-cursor纯净环境工具
 
 ## 📝 功能介绍
 
-free-cursor现在通过一个py文件即可完成环境重置：
+free-cursor现在通过一个py文件即可完成纯净环境：
 
-- **运行reset.py文件**：清理系统环境，为光标使用做好准备
+- **运行reset.py文件**：打造纯净环境
 
 ### 使用提示
 - 运行前需要下载安装Python、管理员运行CMD
@@ -22,11 +22,11 @@ free-cursor现在通过一个py文件即可完成环境重置：
    venv\Scripts\activate
    ```
 
-3. **运行重置脚本**
+3. **运行reset文件**
    ```bash
    python reset.py
    ```
-   然后输入 `y` 完成环境的重置
+   然后输入 `y` 完成纯净环境的设置
 
 ## ⚙️ 系统要求
 
