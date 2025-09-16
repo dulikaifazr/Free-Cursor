@@ -4,7 +4,7 @@
 
 free-cursor现在通过一个py文件即可完成纯净环境：
 
-- **运行reset.py文件**：打造纯净环境
+- **运行purity.py文件**：打造纯净环境
 
 ### 使用提示
 - 运行前需要下载安装Python、管理员运行CMD
@@ -22,9 +22,9 @@ free-cursor现在通过一个py文件即可完成纯净环境：
    venv\Scripts\activate
    ```
 
-3. **运行reset文件**
+3. **运行文件**
    ```bash
-   python reset.py
+   python purity.py
    ```
    然后输入 `y` 完成纯净环境的设置
 
