@@ -1,8 +1,8 @@
-# 🔄 free-cursor纯净环境工具
+# 🔄 free-lite纯净环境工具
 
 ## 📝 功能介绍
 
-free-cursor现在通过一个py文件即可完成纯净环境：
+free-lite现在通过一个py文件即可完成纯净环境：
 
 - **运行purity.py文件**：打造纯净环境
 
