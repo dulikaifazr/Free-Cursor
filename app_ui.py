@@ -16,13 +16,13 @@ try:
 except ImportError:
     ICON_B64 = ""#(app.resources.py的图标自己可以随意找，如果不需要图标测可以删除这个文件中关于icon_b64图标的全部引用)
 
-class FreeCursorApp:
+class FreeLiteApp:
     VERSION = "版本信息"
     VERSION_URL = "你的gist地址"
     GITHUB_REPO_URL = "有了新版本、出现网络连接错误后希望跳转的地址，如果不需要可以删除这段版本可控制代码"
     def __init__(self, root, usage_limiter):
         self.root = root
-        self.root.title("Free-Cursor")
+        self.root.title("Free-Lite")
         
         self.usage_limiter = usage_limiter
         
@@ -157,7 +157,7 @@ class FreeCursorApp:
         
         self.title_label = tk.Label(
             main_frame, 
-            text="Free-Cursor", 
+            text="Free-Lite", 
             font=("Microsoft YaHei UI", 20, "bold"),
             bg="white", 
             fg="#2E86C1",
@@ -180,8 +180,8 @@ class FreeCursorApp:
             bd=0,
             activebackground="#3C579A",
             activeforeground="white",
-            cursor="hand2",
-            command=self.reset_cursor_pro
+            Lite="hand2",
+            command=self.reset_Lite_pro
         )
         self.btn_reset.pack(pady=(0, 8))
         
@@ -200,7 +200,7 @@ class FreeCursorApp:
             bd=0,
             activebackground="#219653",
             activeforeground="white",
-            cursor="hand2",
+            Lite="hand2",
             command=open_proton_mail
         )
         self.btn_mail.pack(pady=(0, 8))
@@ -270,7 +270,7 @@ class FreeCursorApp:
                 bg="#8F8F8F"
             )
     
-    def reset_cursor_pro(self):
+    def reset_Lite_pro(self):
         if self.check_for_updates_blocking():
             return
         
@@ -341,3 +341,4 @@ class FreeCursorApp:
             penalty_message = "检测到系统时间异常！\n\n请将系统时间调整为正确的时间后再使用本程序。"
             messagebox.showerror("系统时间异常", penalty_message)
             self.update_button_state() 
+
