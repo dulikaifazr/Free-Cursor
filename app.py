@@ -7,7 +7,7 @@ import datetime
 import json
 import hashlib
 import ntplib
-from app_ui import FreeCursorApp
+from app_ui import Free-Lite 
 
 class UsageLimiter:
     MAX_DAILY_RESETS = (#阿拉伯数字，自己随便定义)
@@ -23,7 +23,7 @@ class UsageLimiter:
     def _encrypt_data(self, data):
         username = os.getenv('USERNAME', '')
         computername = os.getenv('COMPUTERNAME', '')
-        key = hashlib.md5((f"FreeCursor{username}{computername}").encode()).hexdigest()
+        key = hashlib.md5((f"FreeLite{username}{computername}").encode()).hexdigest()
         
         data_copy = data.copy()
         data_string = json.dumps(data, sort_keys=True)
@@ -38,7 +38,7 @@ class UsageLimiter:
         try:
             username = os.getenv('USERNAME', '')
             computername = os.getenv('COMPUTERNAME', '')
-            key = hashlib.md5((f"FreeCursor{username}{computername}").encode()).hexdigest()
+            key = hashlib.md5((f"FreeLite{username}{computername}").encode()).hexdigest()
             
             json_data = base64.b64decode(encrypted.encode()).decode()
             data = json.loads(json_data)
@@ -197,7 +197,7 @@ def main():
         
     root = tk.Tk()
     usage_limiter = UsageLimiter()
-    app = FreeCursorApp(root, usage_limiter)
+    app = FreeLiteApp(root, usage_limiter)
     
     def on_closing():
         root.destroy()
